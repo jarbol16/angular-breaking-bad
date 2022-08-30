@@ -1,0 +1,5 @@
+<app-header [title]="'Juan'" (propagar)="setName($event);"></app-header>
+<router-outlet></router-outlet>
+<div>
+  <span>Prueba de Output: {{name}}</span>
+</div>

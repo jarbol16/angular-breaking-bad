@@ -1,0 +1,12 @@
+<article>
+    <div class="container">
+        <h1>Body</h1>
+        <hr>
+        <input class="form-control" type="text" [(ngModel)]="text" placeholder="input"/>
+        <hr>
+        <span>{{text}}</span>
+        <div *ngIf="text === 'juan'">
+            <span>Prueba</span>
+        </div>
+    </div>
+</article>
